@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Before and After shadow</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .card {
+      padding: 23px 12px;
+      margin: 23px 12px;
+      background-color: burlywood;
+      /* border: 2px solid red; */
+      /* box-shadow: 10px 13px green; */
+      /* box-shadow: -7px -5px 10px green; */
+      /* box-shadow: -7px -5px 10px 34px rgba(71,172,172,0.5); */
+      box-shadow: inset 3px 5px green;
+      box-shadow: 3px 5px green,4px 6px red;
+    }
+    .card h2{
+        /* text-shadow: 3px 4px red; */
+        /* text-shadow: 3px 4px 2px white; */
+        text-shadow: 3px 4px 2px  white;
+
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="card" id="card-1">
+        <h2>This is c++ course</h2>
+        <p>
+            I have started C++ course which doesnot mean we will stop this course we will continue this course till completion
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+          laudantium numquam excepturi molestiae, corrupti consectetur sunt
+          nihil maiores tempore et dolores fuga magnam quis beatae iste pariatur
+          quisquam cupiditate, quae asperiores. Deleniti, alias officia!
+        </p>
+      </div>
+      <div class="card" id="card-2">
+        <h2>This is HTML course</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+          laudantium numquam excepturi molestiae, corrupti consectetur sunt
+          nihil maiores tempore et dolores fuga magnam quis beatae iste pariatur
+          quisquam cupiditate, quae asperiores. Deleniti, alias officia!
+        </p>
+      </div>
+      <div class="card" id="card-3">
+        <h2>Card3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+          laudantium numquam excepturi molestiae, corrupti consectetur sunt
+          nihil maiores tempore et dolores fuga magnam quis beatae iste pariatur
+          quisquam cupiditate, quae asperiores. Deleniti, alias officia!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
